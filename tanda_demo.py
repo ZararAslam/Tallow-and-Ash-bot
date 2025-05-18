@@ -41,7 +41,7 @@ st.markdown("""
 
 # Display centered company logo
 st.markdown("<div style='text-align: center; padding-bottom: 10px;'>", unsafe_allow_html=True)
-st.image("meraki-logo.png", width=180)
+st.image("LOGO-TRANSPARENT.png", width=180)
 st.markdown("</div>", unsafe_allow_html=True)
 
 # Initialize session state for threads and messages
