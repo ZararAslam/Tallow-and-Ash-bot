@@ -100,6 +100,6 @@ st.text_input(
 # Add a demo notice below input
 st.markdown("""
 <div style="background-color: #fff8dc; padding: 10px; border: 1px solid #ddd; border-radius: 5px; margin-top: 15px;">
-    <strong>Note:</strong> This is just a basic demo layout to test the backend(knowledge and query handling capabilities) of Tallow + Ash Customer Support AI. The final frontend will not look like this. Specific information about products or offers can also be added later on.
+    <strong>Note:</strong> This is just a basic demo layout to test the backend(knowledge and query handling capabilities) of Tallow + Ash Customer Support AI. The final frontend will not look like this. Specific information about products or offers can also be added later on. Email us at "hello@altorix.co.uk".
 </div>
 """, unsafe_allow_html=True)
