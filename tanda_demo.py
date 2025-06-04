@@ -53,10 +53,10 @@ st.markdown("""
         text-align: center;
         padding: 20px 0;
         margin-bottom: 20px;
-        background: linear-gradient(135deg, #F8FBF6, #F0F7ED);
+        background: linear-gradient(135deg, #FAFAF8, #F5F3F0);
         border-radius: 15px;
         box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        border: 1px solid #E8F4E3;
+        border: 1px solid #F0EDEA;
     }
     
     /* Message bubbles */
@@ -75,14 +75,14 @@ st.markdown("""
     }
     
     .user-bubble {
-        background: linear-gradient(135deg, #7B9F7E, #6B8E6D);
+        background: linear-gradient(135deg, #ccaece, #b899bc);
         color: white;
         padding: 12px 16px;
         border-radius: 18px 18px 4px 18px;
         max-width: 70%;
         min-width: 50px;
         word-wrap: break-word;
-        box-shadow: 0 2px 8px rgba(123,159,126,0.4);
+        box-shadow: 0 2px 8px rgba(204,174,206,0.4);
         font-size: 14px;
         line-height: 1.4;
         display: inline-block;
@@ -103,8 +103,8 @@ st.markdown("""
     }
     
     .bot-bubble {
-        background: linear-gradient(135deg, #F8FBF6, #F0F7ED);
-        color: #2C3E2D;
+        background: linear-gradient(135deg, #FAFAF8, #F5F3F0);
+        color: #4A453F;
         padding: 12px 16px;
         border-radius: 18px 18px 18px 4px;
         max-width: 70%;
@@ -113,7 +113,7 @@ st.markdown("""
         box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         font-size: 14px;
         line-height: 1.4;
-        border: 1px solid #E8F4E3;
+        border: 1px solid #F0EDEA;
         display: inline-block;
         text-align: left;
         white-space: pre-wrap;
@@ -128,7 +128,7 @@ st.markdown("""
     }
     
     .bot-bubble h1, .bot-bubble h2, .bot-bubble h3 {
-        color: #6B8E6D !important;
+        color: #ccaece !important;
         margin-bottom: 4px !important;
     }
     
@@ -143,19 +143,19 @@ st.markdown("""
     }
     
     .bot-bubble code {
-        background-color: #F6FAF4 !important;
+        background-color: #F7F5F2 !important;
         padding: 2px 4px !important;
         border-radius: 4px !important;
         font-family: 'Courier New', monospace !important;
         font-size: 13px !important;
-        color: #6B8E6D !important;
+        color: #ccaece !important;
     }
     
     .bot-bubble pre {
-        background-color: #F8FBF6 !important;
+        background-color: #FAFAF8 !important;
         padding: 8px !important;
         border-radius: 6px !important;
-        border-left: 4px solid #7B9F7E !important;
+        border-left: 4px solid #ccaece !important;
         overflow-x: auto !important;
         margin: 4px 0 !important;
     }
@@ -171,27 +171,27 @@ st.markdown("""
     /* Input styling */
     .stTextInput > div > div > input {
         border-radius: 25px;
-        border: 2px solid #E8F4E3;
+        border: 2px solid #F0EDEA;
         padding: 12px 20px;
         font-size: 14px;
-        background-color: #F8FBF6;
+        background-color: #FAFAF8;
     }
     
     .stTextInput > div > div > input:focus {
-        border-color: #7B9F7E;
-        box-shadow: 0 0 0 0.2rem rgba(123, 159, 126, 0.25);
+        border-color: #ccaece;
+        box-shadow: 0 0 0 0.2rem rgba(204, 174, 206, 0.25);
     }
     
     /* Spinner styling */
     .stSpinner > div {
         text-align: center;
-        color: #7B9F7E;
+        color: #ccaece;
     }
     
     /* Demo notice styling */
     .demo-notice {
-        background: linear-gradient(135deg, #F6FAF4, #F0F7ED);
-        border: 1px solid #7B9F7E;
+        background: linear-gradient(135deg, #F7F5F2, #F2EFEB);
+        border: 1px solid #ccaece;
         border-radius: 12px;
         padding: 16px;
         margin: 20px 0;
@@ -199,7 +199,7 @@ st.markdown("""
     }
     
     .demo-notice strong {
-        color: #6B8E6D;
+        color: #ccaece;
     }
     
     /* Typing indicator */
@@ -210,7 +210,7 @@ st.markdown("""
     }
     
     .typing-bubble {
-        background-color: #F0F7ED;
+        background-color: #F2EFEB;
         border-radius: 18px 18px 18px 4px;
         padding: 12px 16px;
         color: #666;
@@ -253,12 +253,12 @@ st.markdown("""
     }
     
     .chat-messages::-webkit-scrollbar-thumb {
-        background: #7B9F7E;
+        background: #ccaece;
         border-radius: 10px;
     }
     
     .chat-messages::-webkit-scrollbar-thumb:hover {
-        background: #6B8E6D;
+        background: #b899bc;
     }
     
     /* Logo styling */
@@ -461,4 +461,3 @@ if st.session_state.messages:
         }, 100);
         </script>
     """, unsafe_allow_html=True)
-
